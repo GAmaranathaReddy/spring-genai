@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "RAG-learning"
+name = "Spring-AI-learning"
 version = "0.1.0"
 description = ""
 authors = ["Amaranatha Reddy <amaranathadev@gmail.com>"]
