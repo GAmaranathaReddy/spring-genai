@@ -31,15 +31,15 @@ markdown_extensions:
 nav:
   - 'Overview': overview.md
   - 'AI Concepts': aiconcepts.md
-  - 'Getting Started': gcp/wip.md
+  - 'Getting Started': getstarted.md
   - 'Spring AI API':
       - 'Chat Client': ai/chat-client.md
       - 'Chat model API':
-          - 'Azure OpenAI': ai/azure/chat.md
-          - 'AWS': ai/aws/chat.md
+          - 'Azure OpenAI': ai/chat/azure.md
+          - 'AWS': ai/chat/aws.md
       - 'Embedding Model API':
-          - 'Azure OpenAI': ai/azure/chat.md
-          - 'AWS': ai/aws/chat.md
+          - 'Azure OpenAI': ai/embed/azure.md
+          - 'AWS': ai/embed/aws.md
       - 'Vector Database':
           - 'SAP HANA': ai/vectordb/hana.md
           - 'Neo4j': ai/vectordb/neo4j.md
