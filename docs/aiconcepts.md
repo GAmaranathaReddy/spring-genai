@@ -7,6 +7,7 @@ AI models are algorithms crafted to process and generate information, often emul
 AI models come in various types, each tailored for specific use cases. While ChatGPT has gained attention for its generative AI capabilities in text input and output, numerous models and companies offer a variety of inputs and outputs. Prior to ChatGPT, text-to-image generation models like Midjourney and Stable Diffusion intrigued many users.
 
 The table below categorizes several models based on their input and output types:
+[AI Concepts models](images/spring-ai-concepts-model-types.jpg)
 
 
 Spring AI currently supports models that process input and output as language, image, and audio. The last row in the previous table, which accepts text as input and outputs numbers, is more commonly known as embedding text and represents the internal data structures used in an AI model. Spring AI has support for embeddings to support more advanced use cases.
