@@ -22,4 +22,5 @@ Spring AI provides the following features:
 This feature set lets you implement common use cases such as “Q&A over your documentation” or “Chat with your documentation.”
 
 The [concepts section](./aiconcepts.md) provides a high-level overview of AI concepts and their representation in Spring AI.
+
 The [Getting Started](./getstarted.md) section shows you how to create your first AI application. Subsequent sections delve into each component and common use cases with a code-focused approach.
