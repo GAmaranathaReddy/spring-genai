@@ -39,3 +39,8 @@ Tell me a {adjective} joke about {content}.
 In Spring AI, prompt templates can be likened to the "'View'" in Spring MVC architecture. A model object, typically a java.util.Map, is provided to populate placeholders within the template. The "'rendered'" string becomes the content of the prompt supplied to the AI model.
 
 There is considerable variability in the specific data format of the prompt sent to the model. Initially starting as simple strings, prompts have evolved to include multiple messages, where each string in each message represents a distinct role for the model.
+
+## Embeddings
+
+Embeddings transform text into numerical arrays or vectors, enabling AI models to process and interpret language data. This transformation from text to numbers is a key element in how AI interacts with and understands human language.
+
