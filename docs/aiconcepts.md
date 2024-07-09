@@ -82,6 +82,6 @@ Three techniques exist for customizing the AI model to incorporate your data:
 
 - Prompt Stuffing: A more practical alternative involves embedding your data within the prompt provided to the model. Given a model’s token limits, techniques are required to present relevant data within the model’s context window. This approach is colloquially referred to as “stuffing the prompt.” The Spring AI library helps you implement solutions based on the “stuffing the prompt” technique otherwise known as Retrieval Augmented Generation (RAG).
 
-![Prompt shuffling](images/spring-ai-prompt-stuffing.png)
+![Prompt shuffling](images/spring-ai-prompt-stuffing.jpg)
 
 
