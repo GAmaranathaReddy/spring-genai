@@ -85,3 +85,22 @@ Three techniques exist for customizing the AI model to incorporate your data:
 ![Prompt shuffling](images/spring-ai-prompt-stuffing.jpg)
 
 
+## Retrieval Augmented Generation
+A technique termed Retrieval Augmented Generation (RAG) has emerged to address the challenge of incorporating relevant data into prompts for accurate AI model responses.
+
+The approach involves a batch processing style programming model, where the job reads unstructured data from your documents, transforms it, and then writes it into a vector database. At a high level, this is an ETL (Extract, Transform and Load) pipeline. The vector database is used in the retrieval part of RAG technique.
+
+As part of loading the unstructured data into the vector database, one of the most important transformations is to split the original document into smaller pieces. The procedure of splitting the original document into smaller pieces has two important steps:
+
+Split the document into parts while preserving the semantic boundaries of the content. For example, for a document with paragraphs and tables, one should avoid splitting the document in the middle of a paragraph or table. For code, avoid splitting the code in the middle of a method’s implementation.
+
+Split the document’s parts further into parts whose size is a small percentage of the AI Model’s token limit.
+
+The next phase in RAG is processing user input. When a user’s question is to be answered by an AI model, the question and all the “similar” document pieces are placed into the prompt that is sent to the AI model. This is the reason to use a vector database. It is very good at finding similar content.
+
+![RAG](images/spring-ai-rag.jpg)
+
+- The ETL pipeline provides further information about orchestrating the flow of extracting data from the data sources and store it in a structured vector store, ensuring data is in the optimal format for retrieval by the AI model.
+
+- The ChatClient - RAG explains how to use the QuestionAnswerAdvisor advisor to enable the RAG capability to your application.
+
