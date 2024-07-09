@@ -44,3 +44,4 @@ There is considerable variability in the specific data format of the prompt sent
 
 Embeddings transform text into numerical arrays or vectors, enabling AI models to process and interpret language data. This transformation from text to numbers is a key element in how AI interacts with and understands human language.
 
+![Spring AI Embedding](images/spring-ai-embeddings.jpg)
