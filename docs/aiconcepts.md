@@ -53,4 +53,22 @@ Embeddings are particularly relevant in practical applications like the Retrieva
 
 You can think of this semantic space as a vector.
 
+## Tokens
+
+Tokens serve as the building blocks of how an AI model works. On input, models convert words to tokens. On output, they convert tokens back to words.
+
+In English, one token roughly corresponds to 75% of a word. For reference, Shakespeare’s complete works, totaling around 900,000 words, translates to approximately 1.2 million tokens.
+
+![Chat Tokens](images/spring-ai-concepts-tokens.png)
+
+Perhaps more important is that Tokens = Money. In the context of hosted AI models, your charges are determined by the number of tokens used. Both input and output contribute to the overall token count.
+
+Also, models are subject to token limits, which restrict the amount of text processed in a single API call. This threshold is often referred to as the 'context window'. The model does not process any text that exceeds this limit.
+
+For instance, ChatGPT3 has a 4K token limit, while GPT4 offers varying options, such as 8K, 16K, and 32K. Anthropic’s Claude AI model features a 100K token limit, and Meta’s recent research yielded a 1M token limit model.
+
+To summarize the collected works of Shakespeare with GPT4, you need to devise software engineering strategies to chop up the data and present the data within the model’s context window limits. The Spring AI project helps you with this task.
+
+
+
 
