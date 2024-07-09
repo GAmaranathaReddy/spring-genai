@@ -69,6 +69,19 @@ For instance, ChatGPT3 has a 4K token limit, while GPT4 offers varying options, 
 
 To summarize the collected works of Shakespeare with GPT4, you need to devise software engineering strategies to chop up the data and present the data within the model’s context window limits. The Spring AI project helps you with this task.
 
+## Bringing Your Data & APIs to the AI Model
 
+
+How can you equip the AI model with information on which it has not been trained?
+
+Note that the GPT 3.5/4.0 dataset extends only until September 2021. Consequently, the model says that it does not know the answer to questions that require knowledge beyond that date. An interesting bit of trivia is that this dataset is around 650GB.
+
+Three techniques exist for customizing the AI model to incorporate your data:
+
+- Fine Tuning: This traditional machine learning technique involves tailoring the model and changing its internal weighting. However, it is a challenging process for machine learning experts and extremely resource-intensive for models like GPT due to their size. Additionally, some models might not offer this option.
+
+- Prompt Stuffing: A more practical alternative involves embedding your data within the prompt provided to the model. Given a model’s token limits, techniques are required to present relevant data within the model’s context window. This approach is colloquially referred to as “stuffing the prompt.” The Spring AI library helps you implement solutions based on the “stuffing the prompt” technique otherwise known as Retrieval Augmented Generation (RAG).
+
+![Prompt shuffling](images/spring-ai-prompt-stuffing.png)
 
 
