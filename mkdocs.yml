@@ -34,13 +34,16 @@ nav:
   - 'Getting Started': getstarted.md
   - 'Spring AI API':
       - 'Chat Client': ai/chat-client.md
-      - 'Chat model API': ai/chat-model.md
+      - 'Chat model API': 
+          - 'Overview': ai/chat-model.md
           - 'Azure OpenAI': ai/chat/azure.md
           - 'AWS': ai/chat/aws.md
-      - 'Embedding Model API': ai/embedd-model.md
+      - 'Embedding Model API': 
+          - 'Overview': ai/embedd-model.md
           - 'Azure OpenAI': ai/embed/azure.md
           - 'AWS': ai/embed/aws.md
-      - 'Vector Database': ai/vectordb.md
+      - 'Vector Database': 
+          - 'Overview': ai/vectordb.md
           - 'SAP HANA': ai/vectordb/hana.md
           - 'Neo4j': ai/vectordb/neo4j.md
       - 'Multimodality': ai/multimodality.md
