@@ -121,7 +121,7 @@ Additionally, every model specific ChatModel/StreamingChatModel implementation c
 
 This is a powerful feature that allows developers to use model specific options when starting the application and then override them with at runtime using the Prompt request:
 
-![chat-options-flow](./images/chat-options-flow.jpg)
+![chat-options-flow](../images/chat-options-flow.jpg)
 
 ## ChatResponse
 
@@ -172,10 +172,10 @@ public class Generation implements ModelResult<AssistantMessage> {
 
 The ChatModel and StreamingChatModel implementations are provided for the following Model providers:
 
-![spring-ai-chat-completions-clients](./images/spring-ai-chat-completions-clients.jpg)
+![spring-ai-chat-completions-clients](../images/spring-ai-chat-completions-clients.jpg)
 
 ## Chat Model API
 
 The Spring AI Chat Model API is build on top of the Spring AI Generic Model API providing Chat specific abstractions and implementations. Following class diagram illustrates the main classes and interfaces of the Spring AI Chat Model API.
 
-![spring-ai-chat-api](spring-ai-chat-api.jpg)
+![spring-ai-chat-api](../images/spring-ai-chat-api.jpg)
